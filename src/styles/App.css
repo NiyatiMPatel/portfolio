@@ -1,0 +1,486 @@
+/* css reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	font-style: normal;  
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* Fonts */
+/* Preloaded in Html */
+/* font-family: 'Cabin', sans-serif; */
+
+@media only screen and (max-width: 800px) {
+	/* Mobile Styles */
+	* {
+		/* Font Sizes Mobile */
+		--font-xl: 4rem;
+		--font-l: 2.5rem;
+		--font-ml: 2.5rem;
+		--font-m: 2rem;
+		--font-ms: 2rem;
+		--font-s: 1.6rem;
+		--font-xs: 1.5rem;
+		--proj-pad: 0rem;
+		--nav-gap: 1rem;
+		--skill-pad: 0rem;
+
+		/* z-index: 0; */
+	}
+
+	/* Nav Styles Mobile */
+	#nav-bar {
+		bottom: 0px;
+		background-color: var(--sh-mobile);
+		padding: 0.5rem;
+		justify-content: center;
+	}
+
+	.nav-bar-left {
+		padding-right: 1rem;
+	}
+
+	.nav-bar-list {
+		justify-content: space-between;
+		gap: 2rem;
+		/* padding-right: 2rem; */
+		padding-left: 1rem;
+		/* padding: 1rem; */
+	} 
+
+	/* Home Styles Mobile */
+
+	.home-content {
+		/* padding: 1rem; */
+		background-color: transparent;
+	}
+
+	#banner-link-next {
+		visibility: hidden;
+	}
+	#top-of-site-pixel-anchor {
+		top: -10vh;
+	}
+
+	/* Color Theme Toggle Mobile  */
+	.tog-label {
+		width: 4rem;
+		height: 2rem;
+	}
+
+	.tog-label:after {
+		top: 0.1rem;
+		left: 0.1rem;
+		width: 1.8rem;
+		height: 1.8rem;
+	}
+
+	.tog-label:active:after {
+		width: 2.1rem;
+	}
+
+	.tog-input:checked + .tog-label:after {
+		left: calc(100% - 0.1rem);
+		transform: translateX(-100%);
+		transition: transform 0.3s;
+	}
+	
+
+	/* About Styles Mobile */
+	.about-container {
+		width: 100%;
+		padding: 2rem;
+	}
+
+	.about-content-all {
+		flex-direction: column;
+	}
+
+	/* Project styles Mobile */
+	#projects {
+		padding: 2rem;
+	} 
+
+	.project-header {
+		width: 100%;
+	}
+
+	.project-content-container {
+		padding: 2rem 0rem 1rem 0rem;
+	}
+
+	img[class*="project-img"] {
+		width: 90vw;
+	}
+
+	div[id*="project-item"]{
+		flex-direction: column;
+	}
+
+	div[id*="project-item"].project-item-a {
+		flex-direction: column-reverse;
+	}
+
+	.project-links {
+		flex-direction: column;
+	}
+
+	/* Contact styles Mobile */
+	#contact {
+		height: 100vh;
+		padding: 2rem;
+	} 
+
+	.App #home {
+		background: linear-gradient(var(--text-a), var(--bg-1));
+	}
+
+	.App #contact {
+		background: linear-gradient(var(--bg-1), var(--text-a));
+	}
+
+}
+
+@media only screen and (min-width: 800px) {
+	* {
+		/* Font Sizes Desktop */
+		--font-xl: 6rem;
+		--font-l: 5rem;
+		--font-ml: 3.5rem;
+		--font-m: 3rem;
+		--font-ms: 2.5rem;
+		--font-s: 2rem;
+		--font-xs: 1.6rem;
+		--pad-ab: 2rem;
+		--nav-gap: 2rem;
+		--proj-pad: 3rem;
+		--skill-pad: 1rem;
+	}
+
+	/* Nav Bar Sizes Desktop */
+	#nav-bar {
+		top: 0px;
+		padding: 0.5rem 0rem 0.5rem 0rem;
+		justify-content: space-between;
+	}
+
+	#nav-bar.hidden {
+		background-color: transparent;
+		border: none;
+		transition: background-color 0.5s ease-in;
+	}
+
+	.nav-bar-left {
+		flex-grow: 1;
+		padding-left: 2rem;
+	}
+
+	.nav-bar-list {
+		align-items: center;
+		gap: 2rem;
+		padding-right: 8rem;
+	} 
+
+	#top-of-site-pixel-anchor {
+		top: 100vh;
+	}
+
+	/* Color Theme Toggle Desktop */
+	.tog-label {
+		width: 6rem;
+		height: 3rem;
+	}
+
+	.tog-label:after {
+		top: 2px;
+		left: 2px;
+		width: 2.6rem;
+		height: 2.6rem;
+	}
+
+	.tog-label:active:after {
+		width: 3rem;
+	}
+
+	.tog-input:checked + .tog-label:after {
+		left: calc(100% - 2px);
+		transform: translateX(-100%);
+		transition: transform 0.3s;
+	}
+
+	/* Home Styles Desktop  */
+	.home-content {
+		/* padding: 5rem 3rem 3rem 3rem; */
+		background-color: #ffffff;
+	}
+
+	/* About Styles Desktop  */
+	.about-container {
+		max-width: 100rem;
+		padding: 5rem;
+	}
+
+	.about-content-all {
+		flex-direction: row;
+	}
+
+	.about-content-left {
+		width: 60%;
+	}
+
+	.skill-container {
+		width: 100%;
+	}
+
+	/* Project styles */
+	#projects {
+		/* width: 100vw; */
+		padding: 5rem;
+	} 
+
+	.project-content-container {
+		padding: 2rem;
+	}
+
+	.project-header {
+		display: flex;
+		width: 100%;
+		max-width: 100rem;
+		/* padding-bottom: 2rem;
+		padding-top: 5rem; */
+	}
+
+	.project-header div {
+		display: flex;
+		flex-direction: row;
+		width: 100%;
+		align-items: center;
+
+	}
+
+	div[id*="project-item"]{
+		flex-direction: row;
+	}
+
+	img[class*="project-img"] {
+		max-width: 40vw;
+		/* max-width: 1100px; */
+		border-radius: 0.5rem;
+	}
+
+	.project-item-a img {
+		box-shadow: -1rem 1rem 0rem var(--text-a);
+	}
+
+	.project-item-b img {
+		box-shadow: 1rem 1rem 0px var(--text-a);
+	}
+
+	/* Contact styles */
+	#contact {
+		height: 100vh;
+	} 
+
+	.App #home {
+		/* PNG */
+		/* background-image: url(../images/background.jpeg); */
+		/* WebP*/
+		background-image: url(../images/webps/background.webp);
+		/* background: linear-gradient(#4BB3FD,#ffffff); */
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+
+	.App.darkMode #home {
+		/* PNG */
+		/* background-image: url(../images/bg-alt-3.jpeg); */
+		/* WebP*/
+		background-image: url(../images/webps/bg-alt-3.webp);
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+}
+
+
+* {
+	margin: 0;
+	scroll-behavior: smooth;
+	font-size: 10px;
+	font-family: 'Cabin', sans-serif;
+	/* ~~~~~~~~~~~~~
+	******Colors*****
+	~~~~~~~~~~~~~~~~*/
+	/* Blue */
+	--bl8: #4BB3FD;
+	--bl7: #A2BCE0;
+	--bl6: #7EA8BE;
+	--bl5: #478aa1;
+	--bl4: #B4C5E4;
+	--bl3: #3D52D5;
+	--bl2: #086788;
+	--bl1: #102B3F;
+	/* Grey (black to white) */
+	--bw99: #ffffff;
+	--bw95: #f1f1f1;;
+	--bw96: #ecf0f1;
+	--bw90:#bdbbb7;
+	--bw85: #FBF0DF;
+	--bw10: #313131;
+	--bw5: #969593;;
+	--bw4: rgb(153, 165, 182);
+	--bw3: #D6D9CE;
+	--bw2: #596475;
+	--bw1-5: #2e2e2e;
+	--bw1: black;
+	--bw0: #2C1A1D;
+	--bw0-5: #1f1f1f;
+	/* Brown  */
+	--br1: #645244;
+	--br2: #cbb89d;
+	/* Orange */
+	--o3: #FA9500;
+	--o2: #EB6424;
+	/*Green */
+	--g1: #45ffbc;;
+	--g2: #AABA9E;
+	--g3: #639A88;
+	--g4: #7CB518;
+	--g5: #2b3d38;
+	--g6: #064420;
+	/*Red */
+	--r1: #684756;
+	/*Brown */
+	--b1: #96705B;
+	/* Yellow */
+	--y1: #FBB02D;
+}
+
+.App{
+	/* Light Theme */
+	/* Backgrounds */
+	--bg-1: var(--bw96);
+	--bg-2: var(--bw85); 
+	--bg-3: rgb(59, 70, 120); 
+	--bg-4: rgb(76, 90, 155); 
+	/* Main Titles & Headers */
+	--text: var(--bl1);
+	/* Sub Titles & Headers */
+	--text-a: var(--bl2); 
+	/* Content Text and small titles & headers */
+	--text-b: var(--bw10);
+	/* Highlight clickable */
+	--text-hl: var(--o2); 
+	/* Highlight display only */
+	--text-hl-a: black; 
+	/* Alerts & Notifications */
+	--al-rd: black;
+	--al-gr: black;
+	--al-yl: black;
+	--al-bl: black;
+	/* Shades */
+	--sh-dk: rgba(49, 49, 49,0.20);
+	--sh-lt: rgba(124, 124, 124, 0.35);
+	--sdw-a: rgba(0,0,0,0.55);
+	--sh-mobile: rgba(124, 124, 124, 0.95);
+	/* Element Specific */
+	--nextLink-a: var(--bw99);
+	/* background-image: url(../images/background.jpeg); */
+	/* background-attachment: fixed; */
+	/* background-position: center; */
+	/* background-size: 100%;
+	background-repeat: no-repeat; */
+}
+
+
+
+.App.darkMode {
+	/* Dark Theme */
+	/* Backgrounds */
+	--bg-1: var(--bw0-5);
+	--bg-2: var(--bw1-5); 
+	--bg-3: rgb(59, 70, 120); 
+	--bg-4: rgb(76, 90, 155); 
+	/* Main Titles & Headers */
+	--text: var(--g6);
+	/* Sub Titles & Headers */
+	--text-a: var(--g3); 
+	/* Content Text and small titles & headers */
+	--text-b: var(--bw5);
+	/* Highlight clickable */
+	--text-hl: var(--y1); 
+	/* Highlight display only */
+	--text-hl-a: var(--bw99);
+	/* Alerts & Notifications */
+	--al-rd: black;
+	--al-gr: black;
+	--al-yl: black;
+	--al-bl: black;
+	/* Shades */
+	--sh-dk: rgba(174, 174, 174, 0.15);
+	--sh-lt: rgba(124, 124, 124, 0.45);
+	--sdw-a: rgba(0,0,0,0.55);
+	--sh-mobile: rgba(49, 49, 49,0.95);
+	/* Element Specific */
+	--nextLink-a: var(--bw99);
+	/* background-image: url(../images/bg-alt-3.jpeg);
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat; */
+}
+
+.App {
+	display: flex;
+	flex-direction: column;
+	width: 100vw;
+	overflow-x: hidden;
+	position: relative;
+}
+
+
+
+
+  
+
+
+

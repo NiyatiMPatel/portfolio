@@ -1,0 +1,230 @@
+#nav-bar {
+    background-color: transparent;
+	height: 5vh;
+    position: fixed;
+    width: 100vw;
+    left: 0px;
+    z-index: 110;
+    display: flex;
+    flex-direction: row;
+    transition: background-color 0.5s ease-in;
+}
+
+#nav-bar.contrast {
+
+    border: none;
+    border-bottom: 1px solid var(--sh-lt);
+    background-color: var(--sh-lt);
+    transition: background-color 0.5s ease-in;
+}
+
+#nav-bar a {
+    display:inline-block;
+    position: relative;
+    color: var(--text-b);
+    transition: background-size 0.5s ease-in;
+}
+
+#nav-bar a:hover {
+    color: var(--text-hl);
+    transition: color 0.3s;
+}
+
+#nav-bar a.selected {
+    color: var(--text-a);
+    text-decoration: none;
+
+    background-image: linear-gradient(var(--text-a), var(--text-a));
+    background-size: 100% 2px, 0 2px;
+    background-position: 0px 100%, 100% 100%;
+    background-repeat: no-repeat;
+
+    transition: background-size 0.5s ease-in;
+}
+
+#nav-bar.contrast a.selected {
+    text-decoration: none;
+    background-size: 100% 2px, 0 2px;
+    background-position: 0px 100%, 100% 100%;
+    background-repeat: no-repeat;
+    transition: background-size 0.5s linear;
+}
+
+
+.nav-bar-left {
+    /* flex-grow: 1; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* padding-left: 2rem; */
+    display: flex;
+    flex-direction: row;
+    gap: var(--nav-gap);
+    justify-content: flex-start;
+}
+
+.nav-btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.nav-btn svg {
+    pointer-events: none;
+    /* fill: var(--text-hl) !important; */
+    height: var(--font-m);
+    fill: var(--text);
+    cursor: pointer;
+}
+
+.nav-btn.selected svg {
+    /* fill: var(--text-hl) !important; */
+    fill: var(--text-hl);
+}
+
+
+
+.nav-bar-list {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+    gap: var(--nav-gap);
+    /* padding-right: 8rem; */
+} 
+
+a[id^="nav-link"] {
+    font-size: var(--font-s);
+    text-decoration: none;
+    padding: 0.5rem;
+}
+
+
+
+/* All Scroll Listeners Styles */
+
+/* Nav Bar Listener */
+#top-of-site-pixel-anchor {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    /* top: 100vh; */
+    left: 0px;
+    /* border: 2px solid red; */
+    /* z-index: 100; */
+    visibility: hidden;
+}
+
+/* Section Selection Listener */
+
+div[id^="section-inc"] {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    /* border: 2px solid blue; */
+    /* z-index: 100; */
+    color: white;
+    font-size: var(--font-xs);
+    visibility: hidden;
+}
+
+.inc-0 {
+    top: 20vh;
+    left: 0px;
+}
+
+.inc-1 {
+    top: 20vh;
+    left: 0px;
+}
+
+.inc-2 {
+    top: 20vh;
+    left: 0px;
+}
+
+.inc-3 {
+    top: 10vh;
+    left: 0px;
+}
+
+/* Link Hover Effect */
+a {
+    text-decoration: none;
+    background-size: 0 2px, 100% 2px;
+    background-position: 0 0, 100% 100%;
+    background-repeat: no-repeat;
+
+}
+
+/* svg Hover Effect */
+/* #nav-bar svg {
+    fill: var(--text-b);
+    transform: scale(1.3);
+}
+
+#nav-bar svg:hover {
+    fill: var(--text-hl);
+    transform: scale(1.5);
+    transition: fill 0.3s;
+}
+
+#nav-bar.hidden svg:hover{
+    fill: var(--text-hl);
+    transition: fill 0.3s;
+    cursor: pointer;
+    
+} */
+
+
+/* Color Theme Toggle */
+#theme-toggle {
+    display: flex;
+}
+
+input[type=checkbox]{
+	height: 0;
+	width: 0;
+	visibility: hidden;
+    /* transition: 0.3s; */
+    
+}
+
+.tog-label {
+	cursor: pointer;
+	text-indent: -9999px;
+	/* width: 6rem;
+	height: 3rem; */
+	background: var(--nextLink-a);
+	display: block;
+	border-radius: 100px;
+	position: relative;
+    /* border: 1px solid black; */
+    /* transition: 0.3s; */
+}
+
+.tog-label:after {
+	content: '';
+	position: absolute;
+	/* top: 2px;
+	left: 2px;
+	width: 2.6rem;
+	height: 2.6rem; */
+	background: var(--text-b);
+	border-radius: 90px;
+	transition:  0.3s;
+}
+
+.tog-input:checked + .tog-label {
+	background: var(--text);
+    /* transition: 0.3s; */
+}
+
+.tog-input:checked + .tog-label:after {
+	/* left: calc(100% - 2px);
+	transform: translateX(-100%);
+    transition: 0.3s; */
+}
+
+.tog-label:active:after {
+	/* width: 3rem; */
+}

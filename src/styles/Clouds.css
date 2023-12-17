@@ -1,0 +1,160 @@
+
+  .cloud-container {
+    z-index: 0;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100vh;
+    width: 100vw; 
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+  }
+  
+  #cloud-container-single {
+    will-change: opacity; 
+    /* will-change: transform; */
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    opacity: 1;
+    transition: opacity 3s;
+    /* border: 1px solid red; */
+    /* border: 1px solid black; */
+  }
+  
+  /* Animations */
+  /* Adjust duration & delay  to create natural variation & feel*/
+  /* .svg-cloud-1 {
+    animation: float 30s linear 0s infinite;
+  }
+  .svg-cloud-2 {
+    animation: float 65s linear 15s infinite;
+  }
+  .svg-cloud-3 {
+    animation: float 50s linear 0s infinite;
+  }
+  .svg-cloud-4 {
+    animation: float 35s linear 15s infinite;
+  }
+  .svg-cloud-5 {
+    animation: float 55s linear 10s infinite;
+  }
+  .svg-cloud-6 {
+    animation: float 45s linear 30s infinite;
+  }
+  .svg-cloud-7 {
+    animation: float 40s linear 10s infinite;
+  } */
+
+  /* @keyframes float {
+    from {
+      transform: translateX(0vw);
+    }
+    to {
+      transform: translateX(150vw);
+    }
+  } */
+  
+
+  /* @media only screen and (max-width: 800px) {
+    @keyframes float {
+      from {
+        transform: translateX(0vw);
+      }
+      to {
+        transform: translateX(250vw);
+      }
+    }
+  } */
+
+
+  
+  #cloud-container-single.hide-cloud {
+    opacity: 0;
+    transition: opacity 1s;
+  }
+  
+  /* Base Layer */
+  .base-layer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  #cloud-base {
+    position: absolute;
+    height: 100%; 
+    width: 100%;
+  }
+  
+  /* Back Layer */
+  .back-layer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  #cloud-back {
+    height: 50%; 
+    width: 83%;
+  }
+  
+  
+  /* Mid Layer */
+  .mid-layer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  #cloud-mid {
+    width: 96%;
+    height: 30%;
+  }
+  
+  /* Front Layer */
+  .front-layer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  #cloud-front {
+    width: 80%;
+    height: 20%;
+    box-shadow: 300px 300px 30px 20px rgba(0, 0, 0, 0.4);
+    margin-bottom: -20px;
+  }
+
+
+  #cloud-background {
+    will-change: transform;
+    position: absolute;
+    /* z-index: 1; */
+    width: 500px;
+    height: 175px;
+    overflow: visible;
+  }
+  

@@ -1,0 +1,147 @@
+.about {
+    position: relative;
+    /* height: 200vh; */
+    background-color: var(--bg-1);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    overflow: hidden;
+}
+
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.about-content-all {
+    display: flex;
+}
+
+.about-content-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-content-right {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.bio-image {
+    width: 35rem;
+    height: 35rem;
+    background: url("../images/webps/niyati.webp");
+    background-size: cover;
+    background-position: center;
+    border-radius: 1000rem;
+}
+
+
+.section-header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.section-break {
+    flex: 1 1;
+    height: 1px;
+    background-color: var(--text-a);
+}
+
+.about-title {
+    font-size: var(--font-l);
+    color: var(--text-a);
+    padding: 1rem;
+}
+
+.skills-title {
+    font-size: var(--font-ms);
+    color: var(--text-a);
+    padding: 1rem;
+}
+
+.about-bio {
+    font-size: var(--font-s);
+    color: var(--text-b);
+    padding: 1rem;
+    line-height: 2.5rem;
+}
+
+.skill-label {
+    font-size: var(--font-xs);
+    padding: 1rem;
+    color: var(--text-b);
+}
+
+.skill-container {
+    width: 100%;
+    background-color: var(--sh-dk);
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    box-shadow: inset 3px 3px 5px var(--sdw-a);
+    overflow: hidden;
+}
+
+.front .skill-item {
+    transform: translateX(100vw);
+}
+
+.back .skill-item {
+    transform: translateX(-100vw);
+}
+
+.misc .skill-item {
+    transform: translateX(100vw);
+}
+
+
+.skill-item {
+
+    margin: 1rem;
+    z-index: 101;
+    /* will-change: transform;  */
+    padding: var(--skill-pad);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* transition: transform 0.3s; */
+}
+
+/* .skill-item:hover {
+    transform: translate(0rem, -0.5rem);
+    transition: transform 0.3s;
+} */
+
+.skill-item:hover .skill-title {
+    /* color: var(--text-hl-a);
+    transition: color 0.2s; */
+}
+
+.skill-title {
+    font-size: var(--font-xs);
+    padding: 0.3rem;
+    color: var(--text-b);
+}
+
+
+.skill-item img {
+    height: var(--font-xl);
+    padding-bottom: 0.3rem;
+}
+
+.skill-item svg {
+    height: 3.5rem;
+}
