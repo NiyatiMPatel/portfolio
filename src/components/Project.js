@@ -63,7 +63,7 @@ function Project(props) {
             delay: 1,
             opacity: 1,
         });
-
+        // eslint-disable-next-line
     }, []);
 
     return (

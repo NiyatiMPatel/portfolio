@@ -39,6 +39,7 @@ function ProjectMobile(props) {
             y: 0,
             opacity: 1,
         });
+        // eslint-disable-next-line
     }, []);
 
     return (
