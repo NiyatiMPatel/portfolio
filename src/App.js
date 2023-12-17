@@ -18,7 +18,7 @@ function App() {
   const [particleColor, setParticleColor] = useState("#64ffda");
   const [bgColor, setBgColor] = useState("#1F1F1F");
 
-  const [links, setLinks] = useState([
+  const links = [
     {
       id: "nav-link-home",
       text: "Home",
@@ -39,10 +39,9 @@ function App() {
       text: "Contact",
       url: "#contact",
     },
-  ])
+  ]
 
   const switchTheme = (e) => {
-    let app = document.querySelector(".App");
     if (colorMode) {
       setColorMode();
       setParticleColor("#64ffda");

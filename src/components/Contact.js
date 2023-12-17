@@ -1,5 +1,5 @@
 //React
-import { useState, useEffect } from "react";
+import { useEffect } from "react";
 //Svgs
 import { ReactComponent as GithubSvg } from "../images/github.svg";
 import { ReactComponent as LinkedInSvg } from "../images/linkedin.svg";
