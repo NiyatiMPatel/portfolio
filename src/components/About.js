@@ -9,7 +9,6 @@ import jsImg from "../images/webps/javascript.webp";
 import sassImg from "../images/webps/sass.webp";
 import reactImg from "../images/webps/react.webp";
 import bsImg from "../images/webps/bootstrap.webp";
-// import gsapImg from "../images/webps/gsap.webp";
 import nodeImg from "../images/webps/nodejs.webp";
 import mongoImg from "../images/webps/mongo.webp";
 import sqlImg from "../images/webps/mysql.webp";
@@ -21,6 +20,7 @@ import parImg from "../images/webps/parcel.png";
 import ghImg from "../images/webps/github.webp";
 import npmImg from "../images/webps/npm.webp";
 import jestImg from "../images/webps/jest.webp";
+import axiosImg from "../images/webps/axios.webp";
 import zepImg from "../images/webps/zeplin.webp";
 import BioImg from "../images/webps/niyati.webp";
 import reduxImg from "../images/webps/redux.png";
@@ -58,7 +58,6 @@ function About() {
     { text: "Sequelize", image: sequelizeImg },
     { text: "SASS", image: sassImg },
     { text: "Bootstrap", image: bsImg },
-    // { text: "GSAP", image: gsapImg },
   ];
 
   const toolSkills = [
@@ -68,6 +67,7 @@ function About() {
     { text: "Webpack", image: wpImg },
     { text: "Parcel", image: parImg },
     { text: "Jest", image: jestImg },
+    { text: "Axios", image: axiosImg },
     { text: "Postman", image: postmanImg },
     { text: "Zeplin", image: zepImg },
     { text: "Google Firebase", image: fbImg },
@@ -110,7 +110,7 @@ function About() {
               Certified in the cool realms of MERN Stack, React, and AWS, I'm on a mission to infuse creativity into the digital landscape. My passion lies in crafting seamless user experiences and creating code that dances to the rhythm of innovation.  If you're curious about my work, feel free to explore the projects I've led on GitHub.
             </p>
             <p className="about-bio">
-              I'm always open to connecting with fellow enthusiasts, collaborators, or anyone interested in tech adventures. Whether you're a seasoned pro or just starting, let's connect and share the excitement of coding adventures! Reach out on GitHub or LinkedIn, and let's embark on a journey of endless possibilities together. 🌟✨
+              Whether you're a seasoned pro or just starting, let's connect and share the excitement of coding adventures! Reach out on GitHub or LinkedIn, and let's embark on a journey of endless possibilities together. 🌟✨
             </p>
           </div>
 
@@ -119,7 +119,7 @@ function About() {
             <div className="bio-wrapper">
               <div className="img-filter"></div>
               <div className="bio-image">
-                <img src={BioImg} alt="Niyati Patel headshot"></img>
+                <img src={BioImg} alt="Niyati Patel"></img>
               </div>
             </div>
 

@@ -543,14 +543,6 @@ a {
     position: relative;
     width: 100%;
     overflow: hidden;
-    @keyframes loop {
-      0% {
-        transform: translateX(0);
-      }
-      100% {
-        transform: translateX(-50%);
-      }
-    }
 
     .inner {
       width: 200%;
@@ -600,12 +592,12 @@ a {
 
     .inner.back {
       animation-direction: reverse;
-      animation-duration: 18s;
+      // animation-duration: 18s;
     }
 
     .inner.dev {
       animation-direction: normal;
-      animation-duration: 15s;
+      // animation-duration: 15s;
     }
 
     .fade {
@@ -883,6 +875,11 @@ a {
             .tech-item.redux {
               color: black;
               background-color: #764abc;
+            }
+
+            .tech-item.axios {
+              color: black;
+              background-color: #5a29e4;
             }
 
             .tech-item.gsap {
