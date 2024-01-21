@@ -323,12 +323,12 @@
       }
 
       .inner.back {
-        width: 1000%;
+        width: 1100%;
         animation-duration: 20s;
       }
 
       .inner.dev {
-        width: 1000%;
+        width: 1200%;
         animation-duration: 20s;
       }
 
@@ -450,6 +450,11 @@
               background-color: #ffff00;
             }
 
+            .tech-item.typescript {
+              color: black;
+              background-color: #3178c6;
+            }
+
             .tech-item.css {
               color: black;
               background-color: #3c99dc;
@@ -478,6 +483,16 @@
             .tech-item.jest {
               color: black;
               background-color: #c63d14;
+            }
+
+            .tech-item.playwright {
+              color: black;
+              background-color: #45ba4b;
+            }
+
+            .tech-item.tailwind {
+              color: black;
+              background-color: #38bdf8;
             }
 
             .tech-item.api {

@@ -1,7 +1,9 @@
 import { ReactComponent as HtmlSvg } from "./images/svgs/icons/html5.svg";
 import { ReactComponent as CssSvg } from "./images/svgs/icons/css3.svg";
+import { ReactComponent as TailSvg } from "./images/svgs/icons/tailwind.svg";
 import { ReactComponent as BsSvg } from "./images/svgs/icons/bootstrap.svg";
 import { ReactComponent as JSSvg } from "./images/svgs/icons/javascript.svg";
+import { ReactComponent as TSSvg } from "./images/svgs/icons/typescript.svg";
 import { ReactComponent as NpmSvg } from "./images/svgs/icons/npm.svg";
 import { ReactComponent as ReactSvg } from "./images/svgs/icons/react.svg";
 import { ReactComponent as ViteSvg } from "./images/svgs/icons/vite.svg";
@@ -14,6 +16,7 @@ import { ReactComponent as GsapSvg } from "./images/svgs/icons/gsap.svg";
 import { ReactComponent as FramerSvg } from "./images/svgs/icons/framer.svg";
 import { ReactComponent as StyledSvg } from "./images/svgs/icons/styled-components.svg";
 import { ReactComponent as JestSvg } from "./images/svgs/icons/jest.svg";
+import { ReactComponent as PlaySvg } from "./images/svgs/icons/playwright.svg";
 import { ReactComponent as MongoSvg } from "./images/svgs/icons/mongo.svg";
 import { ReactComponent as MongooseSvg } from "./images/svgs/icons/mongoose.svg";
 import { ReactComponent as MapsSvg } from "./images/svgs/icons/maps.svg";
@@ -44,10 +47,20 @@ const getTechLogo = (techType) => {
         <div className="tech-logo">
           <JSSvg />
         </div>);
+    case "typescript":
+      return (
+        <div className="tech-logo">
+          <TSSvg />
+        </div>);
     case "sass":
       return (
         <div className="tech-logo">
           <SassSvg />
+        </div>);
+    case "tailwind":
+      return (
+        <div className="tech-logo">
+          <TailSvg />
         </div>);
     case "react":
       return (
@@ -93,6 +106,11 @@ const getTechLogo = (techType) => {
       return (
         <div className="tech-logo">
           <JestSvg />
+        </div>);
+    case "playwright":
+      return (
+        <div className="tech-logo">
+          <PlaySvg />
         </div>);
     case "firebase":
       return (

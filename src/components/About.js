@@ -7,6 +7,7 @@ import htmlImg from "../images/webps/html.webp";
 import cssImg from "../images/webps/css.webp";
 import jsImg from "../images/webps/javascript.webp";
 import sassImg from "../images/webps/sass.webp";
+import tailwind from "../images/webps/tailwind.webp";
 import reactImg from "../images/webps/react.webp";
 import bsImg from "../images/webps/bootstrap.webp";
 import nodeImg from "../images/webps/nodejs.webp";
@@ -20,6 +21,7 @@ import parImg from "../images/webps/parcel.png";
 import ghImg from "../images/webps/github.webp";
 import npmImg from "../images/webps/npm.webp";
 import jestImg from "../images/webps/jest.webp";
+import playImg from "../images/webps/playwright.webp";
 import axiosImg from "../images/webps/axios.webp";
 import zepImg from "../images/webps/zeplin.webp";
 import BioImg from "../images/webps/niyati.webp";
@@ -44,7 +46,7 @@ function About() {
     { text: "CSS3", image: cssImg },
     { text: "JavaScript", image: jsImg },
     { text: "TypeScript", image: tsImg },
-    { text: "Matlab", image: matlabImg },
+    // { text: "Matlab", image: matlabImg },
   ];
 
   const frameworkSkills = [
@@ -57,6 +59,7 @@ function About() {
     { text: "MySql", image: sqlImg },
     { text: "Sequelize", image: sequelizeImg },
     { text: "SASS", image: sassImg },
+    { text: "Tailwind", image: tailwind },
     { text: "Bootstrap", image: bsImg },
   ];
 
@@ -67,6 +70,7 @@ function About() {
     { text: "Webpack", image: wpImg },
     { text: "Parcel", image: parImg },
     { text: "Jest", image: jestImg },
+    { text: "Playwright", image: playImg },
     { text: "Axios", image: axiosImg },
     { text: "Postman", image: postmanImg },
     { text: "Zeplin", image: zepImg },
@@ -104,14 +108,13 @@ function About() {
               <div className="section-break"></div>
             </div>
             <p className="about-bio">
-              Hello! I'm Niyati Patel, a passionate Full Stack Web Developer with a knack for front-end development! Armed with a master's in telecommunications engineering, my journey in tech has been all about pushing boundaries and exploring the wonders of coding.
+              Greetings! I'm a passionate Full Stack Software Developer with a knack for front-end development!
             </p>
             <p className="about-bio">
-              Certified in the cool realms of MERN Stack, React, and AWS, I'm on a mission to infuse creativity into the digital landscape. My passion lies in crafting seamless user experiences and creating code that dances to the rhythm of innovation.  If you're curious about my work, feel free to explore the projects I've led on GitHub.
+              Recognized for owning product development from concept to launch, developing scalable and optimized applications.
+              Beyond coding, I bring a collaborative spirit, whether engaging in badminton matches, immersing in anime, experimenting in the kitchen, or enjoying serene walks. Balancing work and life are a cornerstone of my professional ethos.
             </p>
-            <p className="about-bio">
-              Whether you're a seasoned pro or just starting, let's connect and share the excitement of coding adventures! Reach out on GitHub or LinkedIn, and let's embark on a journey of endless possibilities together. 🌟✨
-            </p>
+            <p className="about-bio">Reach out on GitHub or LinkedIn, and let's embark on a journey of endless possibilities together. 🌟✨</p>
           </div>
 
           <a href="https://github.com/NiyatiMPatel" target="_blank" rel="noreferrer" className="about-content-right">

@@ -592,11 +592,13 @@ a {
 
     .inner.back {
       animation-direction: reverse;
+      width: 400%;
       // animation-duration: 18s;
     }
 
     .inner.dev {
       animation-direction: normal;
+      width: 400%;
       // animation-duration: 15s;
     }
 
@@ -827,6 +829,11 @@ a {
               background-color: #ffff00;
             }
 
+            .tech-item.typescript {
+              color: black;
+              background-color: #3178c6;
+            }
+
             .tech-item.css {
               color: black;
               background-color: #3c99dc;
@@ -855,6 +862,16 @@ a {
             .tech-item.jest {
               color: black;
               background-color: #c63d14;
+            }
+
+            .tech-item.playwright {
+              color: black;
+              background-color: #45ba4b;
+            }
+
+            .tech-item.tailwind {
+              color: black;
+              background-color: #38bdf8;
             }
 
             .tech-item.api {

@@ -5,84 +5,96 @@ import expense from "./images/project-images/expense.png";
 import users from "./images/project-images/users.png";
 import animation from "./images/project-images/animation.png";
 import bookstore from "./images/project-images/bookstore.png";
+import bonvoyage from "./images/project-images/bonvoyage.png";
 import fashion from "./images/project-images/fashion.png"
 
 export const projectDataAll = [
  {
   id: "0",
   classTitle: "project-item-a",
+  title: "BonVoyage",
+  desc: "A web platform that simplifies hotel booking. Users can discover, reserve, and manage hotels with ease. With personalized recommendations and seamless management of bookings, it enhances the travel experience.",
+  codeUrl: "https://github.com/NiyatiMPatel/bonvoyage",
+  demoUrl: "https://bonvoyage-qtqq.onrender.com/",
+  imgSrc: bonvoyage,
+  imgAlt: "bonvoyage",
+  tech: [["Node.js", "node"], ["Express", "express"], ["MongoDB", "mongo"], ["Mongoose", "mongoose"], ["Typescript", "typescript"], ["Vite", "vite"], ["React", "react"], ["Tailwind", "tailwind"], ["Playwright", "playwright"]]
+ },
+ {
+  id: "1",
+  classTitle: "project-item-b",
   title: "Bookstore",
   desc: "Web application that manages user authentication, role-based access control, and session management, alongside online store functionalities.",
   codeUrl: "https://github.com/NiyatiMPatel/node-mongo-bookstore",
   demoUrl: "https://node-mongo-bookstore.onrender.com",
   imgSrc: bookstore,
-  imgAlt: "landing page project demo image",
+  imgAlt: "bookstore",
   tech: [["Node.js", "node"], ["Express", "express"], ["EJS", "ejs"], ["MongoDB", "mongo"], ["Mongoose", "mongoose"]]
  },
  {
-  id: "1",
-  classTitle: "project-item-b",
+  id: "2",
+  classTitle: "project-item-a",
   title: "Vite Animation",
   desc: "A testament to the power of modern web technologies in creating visually stunning and interactive websites. It showcases the effective use of on-scroll effects to enhance user engagement and experience.",
   codeUrl: "https://github.com/NiyatiMPatel/animation",
   demoUrl: "https://vite-animation.netlify.app",
   imgSrc: animation,
-  imgAlt: "landing page project demo image",
+  imgAlt: "animation",
   tech: [["Vite", "vite"], ["React", "react"], ["Styled Components", "styled"], ["GSAP", "gsap"], ["Framer Motion", "framer"]]
  },
  {
-  id: "2",
-  classTitle: "project-item-a",
+  id: "3",
+  classTitle: "project-item-b",
   title: "User Registrar",
   desc: "A representation of modern web development practices, showcasing how to address the challenges of state management and HTTP request/response handling in complex applications.",
   codeUrl: "https://github.com/NiyatiMPatel/react-reux-toolkit-users-crud-code",
   demoUrl: "https://user-registrar.netlify.app",
   imgSrc: users,
-  imgAlt: "landing page project demo image",
+  imgAlt: "users",
   tech: [["React", "react"], ["CSS Modules", "css"], ["React Router", "react"], ["Redux Toolkit", "redux"], ["Axios", "axios"], ["Firebase", "firebase"]]
  },
  {
-  id: "3",
-  classTitle: "project-item-b",
+  id: "4",
+  classTitle: "project-item-a",
   title: "React Meals",
   desc: "Application structured with a focus on modularity and reusability, designed to streamline the process of online food ordering. Built using the robust and dynamic framework to offer a user-friendly interface and efficient functionality.",
   codeUrl: "https://github.com/NiyatiMPatel/react-food-order-app",
   demoUrl: "https://niyatimpatel.github.io/food-order-app-project",
   imgSrc: meals,
-  imgAlt: "live weather app demo image",
+  imgAlt: "meal",
   tech: [["React", "react"], ["CSS Modules", "css"], ["Javascript", "javascript"], ["Firebase", "firebase"]]
  },
  {
-  id: "4",
-  classTitle: "project-item-a",
+  id: "5",
+  classTitle: "project-item-b",
   title: "Expense Tracker",
   desc: "Expense tracker application that allows users to manage and visualize their expenses. It features components for adding expenses, and displaying them in list and chart formats.",
   codeUrl: "https://github.com/NiyatiMPatel/expense-tracker-app",
   demoUrl: "https://niyatimpatel.github.io/react-expense-tracker",
   imgSrc: expense,
-  imgAlt: "rock paper scissors game app demo image",
+  imgAlt: "expense",
   tech: [["React", "react"], ["CSS", "css"], ["Javascript", "javascript"]]
  },
  {
-  id: "5",
-  classTitle: "project-item-b",
+  id: "6",
+  classTitle: "project-item-a",
   title: "Javascript SuperApp",
   desc: " An application that covers a wide range of learning aspects in JavaScript, making it an excellent resource for understanding various concepts and techniques in the language.",
   codeUrl: "https://github.com/NiyatiMPatel/js-assignment",
   demoUrl: "https://javascript-super-app.netlify.app",
   imgSrc: superapp,
-  imgAlt: "where's waldo game app project demo image",
+  imgAlt: "superapp",
   tech: [["HTML", "html"], ["CSS", "css"], ["Javascript", "javascript"]]
  },
  {
-  id: "6",
-  classTitle: "project-item-a",
+  id: "7",
+  classTitle: "project-item-b",
   title: "Vendor Fashions",
   desc: "A sophisticated online shopping platform that offers a user-friendly interface for customers to browse, select, and purchase products, while also providing features for managing orders and user profiles.",
   codeUrl: "https://github.com/NiyatiMPatel/assignment-2",
   demoUrl: "https://vendor-fashion.netlify.app",
   imgSrc: fashion,
-  imgAlt: "fashion demo image",
+  imgAlt: "fashion",
   tech: [["HTML", "html"], ["CSS", "css"], ["Bootstrap", "bootstrap"]]
  },
 ];
