@@ -27,7 +27,6 @@ import zepImg from "../images/webps/zeplin.webp";
 import BioImg from "../images/webps/niyati.webp";
 import reduxImg from "../images/webps/redux.png";
 import tsImg from "../images/webps/typescript.png";
-import matlabImg from "../images/webps/matlab.png";
 import mongooseImg from "../images/webps/mongoose.webp";
 import sequelizeImg from "../images/webps/sequelize.png";
 import postmanImg from "../images/webps/postman.png";
