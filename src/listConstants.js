@@ -23,8 +23,8 @@ export const projectDataAll = [
  {
   id: "1",
   classTitle: "project-item-b",
-  title: "Bookstore",
-  desc: "Web application that manages user authentication, role-based access control, and session management, alongside online store functionalities.",
+  title: "NodeXpress Marketplace",
+  desc: "Web application for seamless product, order, and customer management. Tailored routes and views cater to administrators and customers and robust security measures for a comprehensive solution.",
   codeUrl: "https://github.com/NiyatiMPatel/node-mongo-bookstore",
   demoUrl: "https://node-mongo-bookstore.onrender.com",
   imgSrc: bookstore,
