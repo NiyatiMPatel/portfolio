@@ -56,12 +56,12 @@ function Contact() {
         </a>
 
         <address>
-          <a href="mailto:patelnitie@gmail.com" target="_blank" rel="noreferrer" className="link-item">
+          <a href="mailto:patel_niyati@outlook.com" target="_blank" rel="noreferrer" className="link-item">
             <div className="link-svg">
               <EmailSvg />
             </div>
             <p>Email:</p>
-            <p>patelnitie@gmail.com</p>
+            <p>patel_niyati@outlook.com</p>
           </a>
         </address>
 

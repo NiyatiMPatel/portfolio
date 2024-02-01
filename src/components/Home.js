@@ -107,7 +107,7 @@ function Home() {
           </a>
 
           <address>
-            <a href="mailto:patelnitie@gmail.com" target="_blank" rel="noreferrer" className="link-item-home">
+            <a href="mailto:patel_niyati@outlook.com" target="_blank" rel="noreferrer" className="link-item-home">
               <div className="link-svg-home">
                 <EmailSvg />
               </div>
