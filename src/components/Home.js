@@ -82,7 +82,7 @@ function Home() {
           <ul className="v-slides">
 
             <li className="v-slide">Hi, I'm Niyati Patel</li>
-            <li className="v-slide">I am a Full Stack Developer</li>
+            <li className="v-slide">I am a Front End Developer</li>
             <li className="v-slide">Check out my links below</li>
             <li className="v-slide">Scroll down to learn more!</li>
             <li className="v-slide">Hi, I'm Niyati Patel</li>

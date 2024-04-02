@@ -107,7 +107,7 @@ function About() {
               <div className="section-break"></div>
             </div>
             <p className="about-bio">
-              Greetings! I'm a passionate Full Stack Software Developer with a knack for front-end development!
+              Greetings! I'm a passionate Full Stack Developer with a knack for Front End Development!
             </p>
             <p className="about-bio">
               Recognized for owning product development from concept to launch, developing scalable and optimized applications.
