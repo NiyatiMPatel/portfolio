@@ -15,7 +15,7 @@ export const projectDataAll = [
   title: "BonVoyage",
   desc: "A web platform that simplifies hotel booking. Users can discover, reserve, and manage hotels with ease. With personalized recommendations and seamless management of bookings, it enhances the travel experience.",
   codeUrl: "https://github.com/NiyatiMPatel/bonvoyage",
-  demoUrl: "https://bonvoyage-qtqq.onrender.com/",
+  demoUrl: "https://bonvoyagebooking.netlify.app/",
   imgSrc: bonvoyage,
   imgAlt: "bonvoyage",
   tech: [["Node.js", "node"], ["Express", "express"], ["MongoDB", "mongo"], ["Mongoose", "mongoose"], ["Typescript", "typescript"], ["Vite", "vite"], ["React", "react"], ["Tailwind", "tailwind"], ["Playwright", "playwright"]]
