@@ -12,7 +12,6 @@ import reactImg from "../images/webps/react.webp";
 import bsImg from "../images/webps/bootstrap.webp";
 import nodeImg from "../images/webps/nodejs.webp";
 import mongoImg from "../images/webps/mongo.webp";
-import sqlImg from "../images/webps/mysql.webp";
 import exImg from "../images/webps/express.webp";
 import fbImg from "../images/webps/firebase.webp";
 import gitImg from "../images/webps/git.webp";
@@ -28,7 +27,6 @@ import BioImg from "../images/webps/niyati.webp";
 import reduxImg from "../images/webps/redux.png";
 import tsImg from "../images/webps/typescript.png";
 import mongooseImg from "../images/webps/mongoose.webp";
-import sequelizeImg from "../images/webps/sequelize.png";
 import postmanImg from "../images/webps/postman.png";
 import netlifyImg from "../images/webps/netlify.png";
 
@@ -45,7 +43,6 @@ function About() {
     { text: "CSS3", image: cssImg },
     { text: "JavaScript", image: jsImg },
     { text: "TypeScript", image: tsImg },
-    // { text: "Matlab", image: matlabImg },
   ];
 
   const frameworkSkills = [
@@ -55,8 +52,6 @@ function About() {
     { text: "Express", image: exImg },
     { text: "MongoDB", image: mongoImg },
     { text: "Mongoose", image: mongooseImg },
-    { text: "MySql", image: sqlImg },
-    { text: "Sequelize", image: sequelizeImg },
     { text: "SASS", image: sassImg },
     { text: "Tailwind", image: tailwind },
     { text: "Bootstrap", image: bsImg },
@@ -107,13 +102,12 @@ function About() {
               <div className="section-break"></div>
             </div>
             <p className="about-bio">
-              Greetings! I'm a passionate Full Stack Developer with a knack for Front End Development!
+              Greetings! I'm a passionate Front End Developer based in Canada.
             </p>
             <p className="about-bio">
-              Recognized for owning product development from concept to launch, developing scalable and optimized applications.
-              Beyond coding, I bring a collaborative spirit, whether engaging in badminton matches, immersing in anime, experimenting in the kitchen, or enjoying serene walks. Balancing work and life are a cornerstone of my professional ethos.
+              As a Front End Developer and Project Engineer with over 5 years of experience, I deliver market-leading solutions and craft intuitive websites and applications that exceed customer and business expectations. I thrive in collaborative environments, adapting quickly to new technologies and fostering positive customer relationships.
             </p>
-            <p className="about-bio">Reach out on GitHub or LinkedIn, and let's embark on a journey of endless possibilities together. 🌟✨</p>
+            <p className="about-bio">Reach out on GitHub or LinkedIn, and let's embark on a journey of endless opportunities together.</p>
           </div>
 
           <a href="https://github.com/NiyatiMPatel" target="_blank" rel="noreferrer" className="about-content-right">

@@ -2,8 +2,8 @@
 import meals from "./images/project-images/meals.png"
 import superapp from "./images/project-images/superapp.png";
 import expense from "./images/project-images/expense.png";
-import users from "./images/project-images/users.png";
-import animation from "./images/project-images/animation.png";
+// import users from "./images/project-images/users.png";
+// import animation from "./images/project-images/animation.png";
 import bookstore from "./images/project-images/bookstore.png";
 import bonvoyage from "./images/project-images/bonvoyage.png";
 import fashion from "./images/project-images/fashion.png"
@@ -13,7 +13,7 @@ export const projectDataAll = [
   id: "0",
   classTitle: "project-item-a",
   title: "BonVoyage",
-  desc: "A web platform that simplifies hotel booking. Users can discover, reserve, and manage hotels with ease. With personalized recommendations and seamless management of bookings, it enhances the travel experience.",
+  desc: "A web application designed for hotel booking, offering a platform where users can search for hotels, view hotel details, and make bookings. It also supports features for hotel owners to manage their listings, including adding new hotels, editing existing listings, and viewing their bookings.",
   codeUrl: "https://github.com/NiyatiMPatel/bonvoyage",
   demoUrl: "https://bonvoyagebooking.netlify.app/",
   imgSrc: bonvoyage,
@@ -23,8 +23,8 @@ export const projectDataAll = [
  {
   id: "1",
   classTitle: "project-item-b",
-  title: "NodeXpress Marketplace",
-  desc: "Web application for seamless product, order, and customer management. Tailored routes and views cater to administrators and customers and robust security measures for a comprehensive solution.",
+  title: "TradeTrove",
+  desc: "An online shopping platform, specifically designed for managing products, user authentication, and order processing. It caters to both end-users looking to purchase products and administrators tasked with managing the platform's content and orders.",
   codeUrl: "https://github.com/NiyatiMPatel/node-mongo-bookstore",
   demoUrl: "https://node-mongo-bookstore.onrender.com",
   imgSrc: bookstore,
@@ -34,30 +34,8 @@ export const projectDataAll = [
  {
   id: "2",
   classTitle: "project-item-a",
-  title: "Vite Animation",
-  desc: "A testament to the power of modern web technologies in creating visually stunning and interactive websites. It showcases the effective use of on-scroll effects to enhance user engagement and experience.",
-  codeUrl: "https://github.com/NiyatiMPatel/animation",
-  demoUrl: "https://vite-animation.netlify.app",
-  imgSrc: animation,
-  imgAlt: "animation",
-  tech: [["Vite", "vite"], ["React", "react"], ["Styled Components", "styled"], ["GSAP", "gsap"], ["Framer Motion", "framer"]]
- },
- {
-  id: "3",
-  classTitle: "project-item-b",
-  title: "User Registrar",
-  desc: "A representation of modern web development practices, showcasing how to address the challenges of state management and HTTP request/response handling in complex applications.",
-  codeUrl: "https://github.com/NiyatiMPatel/react-reux-toolkit-users-crud-code",
-  demoUrl: "https://user-registrar.netlify.app",
-  imgSrc: users,
-  imgAlt: "users",
-  tech: [["React", "react"], ["CSS Modules", "css"], ["React Router", "react"], ["Redux Toolkit", "redux"], ["Axios", "axios"], ["Firebase", "firebase"]]
- },
- {
-  id: "4",
-  classTitle: "project-item-a",
   title: "React Meals",
-  desc: "Application structured with a focus on modularity and reusability, designed to streamline the process of online food ordering. Built using the robust and dynamic framework to offer a user-friendly interface and efficient functionality.",
+  desc: "A web application designed for an online food ordering system. It allows users to browse through a selection of meals, add them to a cart, and proceed to checkout with their order details.",
   codeUrl: "https://github.com/NiyatiMPatel/react-food-order-app",
   demoUrl: "https://niyatimpatel.github.io/food-order-app-project",
   imgSrc: meals,
@@ -65,10 +43,10 @@ export const projectDataAll = [
   tech: [["React", "react"], ["CSS Modules", "css"], ["Javascript", "javascript"], ["Firebase", "firebase"]]
  },
  {
-  id: "5",
+  id: "3",
   classTitle: "project-item-b",
   title: "Expense Tracker",
-  desc: "Expense tracker application that allows users to manage and visualize their expenses. It features components for adding expenses, and displaying them in list and chart formats.",
+  desc: "An application that helps users manage and visualize their expenses over time. It allows users to add new expenses, view a list of expenses, and filter expenses by year.",
   codeUrl: "https://github.com/NiyatiMPatel/expense-tracker-app",
   demoUrl: "https://niyatimpatel.github.io/react-expense-tracker",
   imgSrc: expense,
@@ -76,10 +54,10 @@ export const projectDataAll = [
   tech: [["React", "react"], ["CSS", "css"], ["Javascript", "javascript"]]
  },
  {
-  id: "6",
+  id: "4",
   classTitle: "project-item-a",
-  title: "Javascript SuperApp",
-  desc: " An application that covers a wide range of learning aspects in JavaScript, making it an excellent resource for understanding various concepts and techniques in the language.",
+  title: "CodeCanvas",
+  desc: "A web application that covers a wide range of JavaScript concepts and functionalities through a series of interactive exercises, including DOM manipulation, event handling, array methods, object manipulation, and more.",
   codeUrl: "https://github.com/NiyatiMPatel/js-assignment",
   demoUrl: "https://javascript-super-app.netlify.app",
   imgSrc: superapp,
@@ -87,10 +65,10 @@ export const projectDataAll = [
   tech: [["HTML", "html"], ["CSS", "css"], ["Javascript", "javascript"]]
  },
  {
-  id: "7",
+  id: "5",
   classTitle: "project-item-b",
-  title: "Vendor Fashions",
-  desc: "A sophisticated online shopping platform that offers a user-friendly interface for customers to browse, select, and purchase products, while also providing features for managing orders and user profiles.",
+  title: "Vendor",
+  desc: "A web application that provides a complete online shopping experience with seamless search and cart functionalities, user engagement and personalization through account management, and detailed product information.",
   codeUrl: "https://github.com/NiyatiMPatel/assignment-2",
   demoUrl: "https://vendor-fashion.netlify.app",
   imgSrc: fashion,

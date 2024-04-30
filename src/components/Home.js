@@ -55,23 +55,6 @@ function Home() {
 
   }, []);
 
-
-  // useEffect(() => {
-  //     gsap.to(".home-content",{
-  //       scrollTrigger: {
-  //         trigger: "#home",
-  //         start: "55% center",
-  //         end: "100% top",
-  //         scrub: 1,
-  //       },
-  //       x: 1000,
-  //       ease: "none",
-  //       duration: 1,
-  //     })
-  // },[]);
-
-
-
   return (
     <div id="home" className="home">
 
@@ -82,7 +65,7 @@ function Home() {
           <ul className="v-slides">
 
             <li className="v-slide">Hi, I'm Niyati Patel</li>
-            <li className="v-slide">I am a Front End Developer</li>
+            <li className="v-slide">I'm a Front End Developer</li>
             <li className="v-slide">Check out my links below</li>
             <li className="v-slide">Scroll down to learn more!</li>
             <li className="v-slide">Hi, I'm Niyati Patel</li>
