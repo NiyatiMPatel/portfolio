@@ -6,7 +6,7 @@ import { ReactComponent as LinkedInSvg } from "../images/linkedin.svg";
 import { ReactComponent as EmailSvg } from "../images/email.svg";
 import { ReactComponent as CvSvg } from "../images/cv.svg";
 import { ReactComponent as NextSvg } from "../images/next.svg";
-import CvPdf from "../documents/Niyati_Resume.pdf";
+import CvPdf from "../documents/Niyati_Patel_Resume.pdf";
 //GSAP
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";

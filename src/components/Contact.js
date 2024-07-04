@@ -6,7 +6,7 @@ import { ReactComponent as LinkedInSvg } from "../images/linkedin.svg";
 import { ReactComponent as EmailSvg } from "../images/email.svg";
 import { ReactComponent as CvSvg } from "../images/cv.svg";
 //Docs
-import CvPdf from "../documents/Niyati_Resume.pdf";
+import CvPdf from "../documents/Niyati_Patel_Resume.pdf";
 //GSAP
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -70,7 +70,7 @@ function Contact() {
             <CvSvg />
           </div>
           <p>Resume:</p>
-          <p>Niyati_Resume.pdf</p>
+          <p>Niyati_Patel_Resume.pdf</p>
         </a>
 
       </div>
