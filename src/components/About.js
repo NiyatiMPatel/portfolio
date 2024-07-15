@@ -102,10 +102,10 @@ function About() {
               <div className="section-break"></div>
             </div>
             <p className="about-bio">
-              Greetings! I'm a passionate Front End Developer based in Canada.
+              Greetings!
             </p>
             <p className="about-bio">
-              As a Front End Developer and Project Engineer with over 5 years of experience, I deliver market-leading solutions and craft intuitive websites and applications that exceed customer and business expectations. I thrive in collaborative environments, adapting quickly to new technologies and fostering positive customer relationships.
+            As an experienced Front End Developer with a background in Engineering, I have delivered market-leading solutions and crafted intuitive websites and applications that exceed both customer and business expectations. I thrive in collaborative environments, adapt quickly to new technologies, and foster positive customer relationships.
             </p>
             <p className="about-bio">Reach out on GitHub or LinkedIn, and let's embark on a journey of endless opportunities together.</p>
           </div>
