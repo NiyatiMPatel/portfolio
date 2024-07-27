@@ -26,7 +26,7 @@ export const projectDataAll = [
   title: "TradeTrove",
   desc: "An online shopping platform, specifically designed for managing products, user authentication, and order processing. It caters to both end-users looking to purchase products and administrators tasked with managing the platform's content and orders.",
   codeUrl: "https://github.com/NiyatiMPatel/node-mongo-bookstore",
-  demoUrl: "https://node-mongo-bookstore.onrender.com",
+  demoUrl: "https://bookstore1-5tb35k2j.b4a.run/",
   imgSrc: bookstore,
   imgAlt: "bookstore",
   tech: [["Node.js", "node"], ["Express", "express"], ["EJS", "ejs"], ["MongoDB", "mongo"], ["Mongoose", "mongoose"]]
