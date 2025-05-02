@@ -98,12 +98,12 @@ function Home() {
             </a>
           </address>
 
-          <a href={CvPdf} target="_blank" rel="noreferrer" className="link-item-home">
+          {/* <a href={CvPdf} target="_blank" rel="noreferrer" className="link-item-home">
             <div className="link-svg-home">
               <CvSvg />
             </div>
             <p>Resume</p>
-          </a>
+          </a> */}
 
         </div>
 

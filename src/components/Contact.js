@@ -65,13 +65,13 @@ function Contact() {
           </a>
         </address>
 
-        <a href={CvPdf} className="link-item">
+        {/* <a href={CvPdf} className="link-item">
           <div className="link-svg">
             <CvSvg />
           </div>
           <p>Resume:</p>
           <p>Niyati_Patel_Resume.pdf</p>
-        </a>
+        </a> */}
 
       </div>
 
