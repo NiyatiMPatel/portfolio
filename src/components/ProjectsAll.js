@@ -36,7 +36,7 @@ function ProjectsAll() {
     <div id="projects">
       <div className="project-header">
         <div className="project-section-title">
-          <p className="about-title">Projects</p>
+          <p className="about-title">Exploratory Projects</p>
           <div className="section-break"></div>
         </div>
       </div>

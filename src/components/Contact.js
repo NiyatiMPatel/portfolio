@@ -4,9 +4,9 @@ import { useEffect } from "react";
 import { ReactComponent as GithubSvg } from "../images/github.svg";
 import { ReactComponent as LinkedInSvg } from "../images/linkedin.svg";
 import { ReactComponent as EmailSvg } from "../images/email.svg";
-// import { ReactComponent as CvSvg } from "../images/cv.svg";
+import { ReactComponent as CvSvg } from "../images/cv.svg";
 //Docs
-// import CvPdf from "../documents/Niyati_Patel_Resume.pdf";
+import CvPdf from "../documents/Niyati_Patel_Resume.pdf";
 //GSAP
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -65,13 +65,13 @@ function Contact() {
           </a>
         </address>
 
-        {/* <a href={CvPdf} className="link-item">
+        <a href={CvPdf} target="_blank" rel="noreferrer" className="link-item">
           <div className="link-svg">
             <CvSvg />
           </div>
           <p>Resume:</p>
           <p>Niyati_Patel_Resume.pdf</p>
-        </a> */}
+        </a>
 
       </div>
 

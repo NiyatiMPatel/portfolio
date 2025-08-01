@@ -91,7 +91,7 @@ export const links = [
  },
  {
   id: "nav-link-projects",
-  text: "Projects",
+  text: "Exploratory Projects",
   url: "#projects",
  },
  {
