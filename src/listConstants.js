@@ -4,33 +4,33 @@ import superapp from "./images/project-images/superapp.png";
 import expense from "./images/project-images/expense.png";
 // import users from "./images/project-images/users.png";
 // import animation from "./images/project-images/animation.png";
-import bookstore from "./images/project-images/bookstore.png";
-import bonvoyage from "./images/project-images/bonvoyage.png";
+// import bookstore from "./images/project-images/bookstore.png";
+// import bonvoyage from "./images/project-images/bonvoyage.png";
 import fashion from "./images/project-images/fashion.png"
 
 export const projectDataAll = [
- {
-  id: "0",
-  classTitle: "project-item-a",
-  title: "BonVoyage",
-  desc: "A web application designed for hotel booking, offering a platform where users can search for hotels, view hotel details, and make bookings. It also supports features for hotel owners to manage their listings, including adding new hotels, editing existing listings, and viewing their bookings.",
-  codeUrl: "https://github.com/NiyatiMPatel/bonvoyage",
-  demoUrl: "https://bonvoyagebooking.netlify.app/",
-  imgSrc: bonvoyage,
-  imgAlt: "bonvoyage",
-  tech: [["Node.js", "node"], ["Express", "express"], ["MongoDB", "mongo"], ["Mongoose", "mongoose"], ["Typescript", "typescript"], ["Vite", "vite"], ["React", "react"], ["Tailwind", "tailwind"], ["Playwright", "playwright"]]
- },
- {
-  id: "1",
-  classTitle: "project-item-b",
-  title: "TradeTrove",
-  desc: "An online shopping platform, specifically designed for managing products, user authentication, and order processing. It caters to both end-users looking to purchase products and administrators tasked with managing the platform's content and orders.",
-  codeUrl: "https://github.com/NiyatiMPatel/node-mongo-bookstore",
-  demoUrl: "https://node-mongo-bookstore.onrender.com",
-  imgSrc: bookstore,
-  imgAlt: "bookstore",
-  tech: [["Node.js", "node"], ["Express", "express"], ["EJS", "ejs"], ["MongoDB", "mongo"], ["Mongoose", "mongoose"]]
- },
+ // {
+ //  id: "0",
+ //  classTitle: "project-item-a",
+ //  title: "BonVoyage",
+ //  desc: "A web application designed for hotel booking, offering a platform where users can search for hotels, view hotel details, and make bookings. It also supports features for hotel owners to manage their listings, including adding new hotels, editing existing listings, and viewing their bookings.",
+ //  codeUrl: "https://github.com/NiyatiMPatel/bonvoyage",
+ //  demoUrl: "https://bonvoyagebooking.netlify.app/",
+ //  imgSrc: bonvoyage,
+ //  imgAlt: "bonvoyage",
+ //  tech: [["Node.js", "node"], ["Express", "express"], ["MongoDB", "mongo"], ["Mongoose", "mongoose"], ["Typescript", "typescript"], ["Vite", "vite"], ["React", "react"], ["Tailwind", "tailwind"], ["Playwright", "playwright"]]
+ // },
+ // {
+ //  id: "1",
+ //  classTitle: "project-item-b",
+ //  title: "TradeTrove",
+ //  desc: "An online shopping platform, specifically designed for managing products, user authentication, and order processing. It caters to both end-users looking to purchase products and administrators tasked with managing the platform's content and orders.",
+ //  codeUrl: "https://github.com/NiyatiMPatel/node-mongo-bookstore",
+ //  demoUrl: "https://node-mongo-bookstore.onrender.com",
+ //  imgSrc: bookstore,
+ //  imgAlt: "bookstore",
+ //  tech: [["Node.js", "node"], ["Express", "express"], ["EJS", "ejs"], ["MongoDB", "mongo"], ["Mongoose", "mongoose"]]
+ // },
  {
   id: "2",
   classTitle: "project-item-a",
